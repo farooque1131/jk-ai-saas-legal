@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms of Service - AI Control Center</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans p-8 md:p-16">
+    <div class="max-w-3xl mx-auto bg-white p-8 rounded-2xl shadow-sm border border-slate-200">
+        <h1 class="text-3xl font-bold mb-6">Terms of Service</h1>
+        <p class="text-sm text-slate-500 mb-8">Last Updated: July 9, 2026</p>
+        
+        <div class="space-y-6 text-sm leading-relaxed">
+            <h2 class="text-xl font-semibold">1. Acceptance of Terms</h2>
+            <p>By accessing the AI Control Center, you agree to be bound by these Terms of Service. This platform is provided as a managed B2B service.</p>
+
+            <h2 class="text-xl font-semibold">2. Platform Usage & Restrictions</h2>
+            <p>You agree not to use the platform to transmit spam, malicious software, or content that violates Meta's Commerce and Business Policies. We reserve the right to suspend any workspace found violating these terms.</p>
+
+            <h2 class="text-xl font-semibold">3. Service Availability</h2>
+            <p>While we strive for 99.9% uptime, the platform relies on third-party APIs (including Meta and OpenAI). We are not liable for outages caused by upstream provider failures.</p>
+
+            <div class="mt-8 pt-8 border-t border-slate-100 text-center">
+                <a href="{% url 'login_view' %}" class="text-indigo-600 hover:text-indigo-800 font-medium">&larr; Return to Login</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
